@@ -23,6 +23,10 @@
     {
       "date": "2025-07-28T12:31:00",
       "message": "chore: set up Husky pre-commit hooks"
+    },
+    {
+      "date": "2025-07-28T12:31:00",
+      "message": "chore: configure lint-staged for pre-commit linting"
     }
   ],
   "last_commit_date": "2025-07-28T12:31:00"
