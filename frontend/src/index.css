@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for interview assistant */
+@layer base {
+    body {
+        @apply antialiased;
+    }
+
+    * {
+        @apply border-gray-200;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg;
+    }
+
+    .card {
+        @apply bg-white rounded-xl shadow-lg border border-gray-100 p-6;
+    }
+
+    .input-field {
+        @apply w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors;
+    }
+}
+
+/* Scrollbar styles */
+@layer utilities {
+    .scrollbar-thin {
+        scrollbar-width: thin;
+    }
+
+    .scrollbar-thumb-gray-300::-webkit-scrollbar-thumb {
+        background-color: #d1d5db;
+    }
+
+    .scrollbar-track-gray-100::-webkit-scrollbar-track {
+        background-color: #f3f4f6;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 6px;
+    }
+}
