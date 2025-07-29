@@ -79,6 +79,10 @@
     {
       "date": "2025-07-28T12:31:00",
       "message": "chore: add security policy (SECURITY.md)"
+    },
+    {
+      "date": "2025-07-28T12:31:00",
+      "message": "chore: initialize React application with Vite"
     }
   ],
   "last_commit_date": "2025-07-28T12:31:00"
