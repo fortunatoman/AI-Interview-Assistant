@@ -111,6 +111,10 @@
     {
       "date": "2025-07-29T14:53:00",
       "message": "chore: configure path aliases in tsconfig and vite.config"
+    },
+    {
+      "date": "2025-07-29T14:53:00",
+      "message": "chore: add Storybook for component development and documentation"
     }
   ],
   "last_commit_date": "2025-07-29T14:53:00"
