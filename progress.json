@@ -107,6 +107,10 @@
     {
       "date": "2025-07-29T14:53:00",
       "message": "chore: set up Axios with base URL and interceptors"
+    },
+    {
+      "date": "2025-07-29T14:53:00",
+      "message": "chore: configure path aliases in tsconfig and vite.config"
     }
   ],
   "last_commit_date": "2025-07-29T14:53:00"
