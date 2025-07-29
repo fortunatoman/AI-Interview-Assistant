@@ -95,6 +95,10 @@
     {
       "date": "2025-07-29T14:53:00",
       "message": "chore: add React Router for client-side routing"
+    },
+    {
+      "date": "2025-07-29T14:53:00",
+      "message": "chore: configure Zustand for global state management"
     }
   ],
   "last_commit_date": "2025-07-29T14:53:00"
