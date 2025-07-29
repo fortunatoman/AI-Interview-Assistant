@@ -131,6 +131,10 @@
     {
       "date": "2025-07-29T14:53:00",
       "message": "chore: configure React Hook Form for form management"
+    },
+    {
+      "date": "2025-07-29T14:53:00",
+      "message": "chore: add Zod for client-side schema validation"
     }
   ],
   "last_commit_date": "2025-07-29T14:53:00"
