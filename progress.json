@@ -199,6 +199,10 @@
     {
       "date": "2025-08-01T11:15:00",
       "message": "chore: configure JWT authentication middleware"
+    },
+    {
+      "date": "2025-08-01T11:15:00",
+      "message": "chore: add bcrypt for password hashing"
     }
   ],
   "last_commit_date": "2025-08-01T11:15:00"
