@@ -179,6 +179,10 @@
     {
       "date": "2025-08-01T11:15:00",
       "message": "chore: add express-rate-limit for API rate limiting"
+    },
+    {
+      "date": "2025-08-01T11:15:00",
+      "message": "chore: configure Morgan for HTTP request logging"
     }
   ],
   "last_commit_date": "2025-08-01T11:15:00"
