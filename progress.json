@@ -307,6 +307,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "feat: add users table with authentication fields"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "feat: create roles and permissions tables"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
