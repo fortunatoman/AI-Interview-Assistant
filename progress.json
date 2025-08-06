@@ -251,6 +251,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: configure SQLAlchemy ORM with async support"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: set up Alembic for database migrations"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
