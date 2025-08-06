@@ -255,6 +255,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: set up Alembic for database migrations"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: add Python-Jose for JWT token handling"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
