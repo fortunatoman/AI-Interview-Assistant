@@ -275,6 +275,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: add pytest and pytest-asyncio for testing"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: configure Poetry for dependency management"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
