@@ -271,6 +271,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: set up Celery with Redis broker for task queue"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: add pytest and pytest-asyncio for testing"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
