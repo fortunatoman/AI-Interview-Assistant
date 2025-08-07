@@ -409,3 +409,7 @@
 2026-02-24 09:10:08,007 - INFO - [OK] Commit created: feat: seed initial admin user and default roles
 2026-02-24 09:10:10,898 - INFO - Pushed to GitHub: master
 2026-02-24 09:10:11,900 - INFO - Modified 3 files
+2026-02-24 09:10:15,169 - INFO - Created commit: feat: add sample product and category seed data...
+2026-02-24 09:10:15,170 - INFO - [OK] Commit created: feat: add sample product and category seed data
+2026-02-24 09:10:17,688 - INFO - Pushed to GitHub: master
+2026-02-24 09:10:18,690 - INFO - Modified 3 files
