@@ -311,6 +311,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "feat: create roles and permissions tables"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "feat: add user_roles junction table"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"
