@@ -439,6 +439,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "feat: implement forgot password with email link"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: add password reset functionality"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"
