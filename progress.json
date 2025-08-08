@@ -419,6 +419,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "chore: add database backup and restore scripts"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: implement user registration with email verification"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"
