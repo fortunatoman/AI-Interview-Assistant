@@ -415,7 +415,11 @@
     {
       "date": "2025-08-07T13:41:00",
       "message": "feat: configure connection pooling with PgBouncer"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "chore: add database backup and restore scripts"
     }
   ],
-  "last_commit_date": "2025-08-07T13:41:00"
+  "last_commit_date": "2025-08-08T12:03:00"
 }
