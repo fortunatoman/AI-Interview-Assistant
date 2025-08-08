@@ -431,6 +431,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "feat: implement token refresh endpoint"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: add logout and token revocation"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"
