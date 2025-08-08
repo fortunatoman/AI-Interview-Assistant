@@ -423,6 +423,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "feat: implement user registration with email verification"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: add login endpoint with JWT access and refresh tokens"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"
