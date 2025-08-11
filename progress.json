@@ -551,6 +551,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "feat(users): add admin ban/unban user functionality"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "feat(frontend/users): build user profile page"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
