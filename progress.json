@@ -499,6 +499,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "test: add unit tests for authentication service"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "test: add integration tests for auth endpoints"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
