@@ -531,6 +531,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "feat(users): implement avatar upload and processing"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "feat(users): add delete account with data cleanup"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
