@@ -459,6 +459,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "feat: add QR code generation for 2FA setup"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: implement backup codes for 2FA recovery"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"
