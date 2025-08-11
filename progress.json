@@ -511,6 +511,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "feat(frontend/auth): create registration page"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "feat(frontend/auth): implement protected route component"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
