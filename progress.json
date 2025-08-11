@@ -515,6 +515,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "feat(frontend/auth): implement protected route component"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "feat(frontend/auth): add auth context and useAuth hook"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
