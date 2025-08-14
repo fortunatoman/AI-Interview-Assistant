@@ -667,6 +667,10 @@
     {
       "date": "2025-08-14T10:52:00",
       "message": "feat(frontend/products): add sort dropdown for product listing"
+    },
+    {
+      "date": "2025-08-14T10:52:00",
+      "message": "feat(frontend/products): implement infinite scroll for product list"
     }
   ],
   "last_commit_date": "2025-08-14T10:52:00"
