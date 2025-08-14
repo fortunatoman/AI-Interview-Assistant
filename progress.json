@@ -631,6 +631,10 @@
     {
       "date": "2025-08-14T10:52:00",
       "message": "feat: implement featured products endpoint"
+    },
+    {
+      "date": "2025-08-14T10:52:00",
+      "message": "feat: add related products suggestion"
     }
   ],
   "last_commit_date": "2025-08-14T10:52:00"
