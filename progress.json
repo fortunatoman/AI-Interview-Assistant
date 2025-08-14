@@ -683,6 +683,10 @@
     {
       "date": "2025-08-14T10:52:00",
       "message": "feat(categories): implement CRUD endpoints for categories"
+    },
+    {
+      "date": "2025-08-14T10:52:00",
+      "message": "feat(categories): add nested category tree endpoint"
     }
   ],
   "last_commit_date": "2025-08-14T10:52:00"
