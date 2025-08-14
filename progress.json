@@ -679,6 +679,10 @@
     {
       "date": "2025-08-14T10:52:00",
       "message": "test: add unit and integration tests for product service"
+    },
+    {
+      "date": "2025-08-14T10:52:00",
+      "message": "feat(categories): implement CRUD endpoints for categories"
     }
   ],
   "last_commit_date": "2025-08-14T10:52:00"
