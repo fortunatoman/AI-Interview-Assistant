@@ -575,6 +575,10 @@
     {
       "date": "2025-08-11T16:39:00",
       "message": "feat(users): add account preferences endpoint"
+    },
+    {
+      "date": "2025-08-11T16:39:00",
+      "message": "test(users): add tests for user CRUD operations"
     }
   ],
   "last_commit_date": "2025-08-11T16:39:00"
