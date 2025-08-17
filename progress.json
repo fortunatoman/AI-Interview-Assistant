@@ -775,6 +775,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "test(cart): add tests for cart service logic"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(orders): implement place order from cart endpoint"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
