@@ -743,6 +743,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(wishlist): implement add/remove wishlist items"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(wishlist): add get user wishlist endpoint"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
