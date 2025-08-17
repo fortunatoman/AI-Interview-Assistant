@@ -723,6 +723,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(cart): add get cart with totals calculation"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(cart): implement clear cart endpoint"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
