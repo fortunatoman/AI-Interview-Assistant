@@ -691,6 +691,10 @@
     {
       "date": "2025-08-14T10:52:00",
       "message": "feat(categories): implement category slug generation"
+    },
+    {
+      "date": "2025-08-14T10:52:00",
+      "message": "feat(categories): add category image upload"
     }
   ],
   "last_commit_date": "2025-08-14T10:52:00"
