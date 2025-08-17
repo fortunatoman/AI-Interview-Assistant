@@ -767,6 +767,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(frontend/wishlist): add wishlist button on product cards"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(frontend/wishlist): build wishlist page"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
