@@ -759,6 +759,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(frontend/cart): add cart page with full item list"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(frontend/cart): implement coupon code input field"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
