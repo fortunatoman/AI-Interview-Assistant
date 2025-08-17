@@ -715,6 +715,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(cart): add update cart item quantity"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(cart): implement remove item from cart"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
