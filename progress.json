@@ -735,6 +735,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(cart): implement guest cart with session ID"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(cart): add cart merge on user login"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
