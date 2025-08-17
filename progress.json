@@ -719,6 +719,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(cart): implement remove item from cart"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(cart): add get cart with totals calculation"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
