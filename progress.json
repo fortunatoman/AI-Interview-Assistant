@@ -703,6 +703,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(frontend/categories): add category page with product listing"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(admin/categories): create category management tree view"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
