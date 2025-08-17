@@ -787,6 +787,10 @@
     {
       "date": "2025-08-17T15:59:00",
       "message": "feat(orders): implement list user orders with pagination"
+    },
+    {
+      "date": "2025-08-17T15:59:00",
+      "message": "feat(orders): add cancel order endpoint with refund trigger"
     }
   ],
   "last_commit_date": "2025-08-17T15:59:00"
