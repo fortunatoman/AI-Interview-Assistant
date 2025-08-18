@@ -839,6 +839,10 @@
     {
       "date": "2025-08-18T10:13:00",
       "message": "feat(payments): integrate Stripe for payment processing"
+    },
+    {
+      "date": "2025-08-18T10:13:00",
+      "message": "feat(payments): implement create payment intent endpoint"
     }
   ],
   "last_commit_date": "2025-08-18T10:13:00"
