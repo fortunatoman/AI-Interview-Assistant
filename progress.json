@@ -859,6 +859,10 @@
     {
       "date": "2025-08-18T10:13:00",
       "message": "feat(payments): implement saved payment methods"
+    },
+    {
+      "date": "2025-08-18T10:13:00",
+      "message": "feat(payments): add PayPal payment integration"
     }
   ],
   "last_commit_date": "2025-08-18T10:13:00"
