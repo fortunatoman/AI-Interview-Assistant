@@ -819,6 +819,10 @@
     {
       "date": "2025-08-18T10:13:00",
       "message": "feat(frontend/orders): build order confirmation page"
+    },
+    {
+      "date": "2025-08-18T10:13:00",
+      "message": "feat(frontend/orders): create order history page"
     }
   ],
   "last_commit_date": "2025-08-18T10:13:00"
