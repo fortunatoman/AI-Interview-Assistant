@@ -903,6 +903,10 @@
     {
       "date": "2025-08-19T13:42:00",
       "message": "feat(reviews): add list reviews for product with pagination"
+    },
+    {
+      "date": "2025-08-19T13:42:00",
+      "message": "feat(reviews): implement update and delete own review"
     }
   ],
   "last_commit_date": "2025-08-19T13:42:00"
