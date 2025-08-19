@@ -931,6 +931,10 @@
     {
       "date": "2025-08-19T13:42:00",
       "message": "feat(frontend/reviews): implement review pagination"
+    },
+    {
+      "date": "2025-08-19T13:42:00",
+      "message": "feat(notifications): implement in-app notification creation"
     }
   ],
   "last_commit_date": "2025-08-19T13:42:00"
