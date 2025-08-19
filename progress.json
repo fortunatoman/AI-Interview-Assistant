@@ -919,6 +919,10 @@
     {
       "date": "2025-08-19T13:42:00",
       "message": "feat(reviews): add average rating aggregation on product"
+    },
+    {
+      "date": "2025-08-19T13:42:00",
+      "message": "feat(frontend/reviews): build review list component"
     }
   ],
   "last_commit_date": "2025-08-19T13:42:00"
