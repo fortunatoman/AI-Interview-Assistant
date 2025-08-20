@@ -939,7 +939,11 @@
     {
       "date": "2025-08-19T13:42:00",
       "message": "feat(notifications): add get user notifications endpoint"
+    },
+    {
+      "date": "2025-08-20T14:16:00",
+      "message": "feat(notifications): implement mark notification as read"
     }
   ],
-  "last_commit_date": "2025-08-19T13:42:00"
+  "last_commit_date": "2025-08-20T14:16:00"
 }
