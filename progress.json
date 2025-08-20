@@ -943,6 +943,10 @@
     {
       "date": "2025-08-20T14:16:00",
       "message": "feat(notifications): implement mark notification as read"
+    },
+    {
+      "date": "2025-08-20T14:16:00",
+      "message": "feat(notifications): add mark all notifications as read"
     }
   ],
   "last_commit_date": "2025-08-20T14:16:00"
