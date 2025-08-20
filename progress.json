@@ -951,6 +951,10 @@
     {
       "date": "2025-08-20T14:16:00",
       "message": "feat(notifications): implement real-time notifications via WebSocket"
+    },
+    {
+      "date": "2025-08-20T14:16:00",
+      "message": "feat(notifications): add push notification support (FCM)"
     }
   ],
   "last_commit_date": "2025-08-20T14:16:00"
