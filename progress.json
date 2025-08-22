@@ -1015,6 +1015,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(frontend/media): implement upload progress indicator"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(search): implement global search endpoint"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"
