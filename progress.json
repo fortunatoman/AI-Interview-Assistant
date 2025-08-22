@@ -1047,6 +1047,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(frontend/search): add search results page"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(frontend/search): implement recent searches history"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"
