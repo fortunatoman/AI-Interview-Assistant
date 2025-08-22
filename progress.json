@@ -1027,6 +1027,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(search): implement search suggestions/autocomplete"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(search): add search result highlighting"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"
