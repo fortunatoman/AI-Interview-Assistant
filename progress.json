@@ -1039,6 +1039,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(search): add faceted search with aggregations"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(frontend/search): build global search bar component"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"
