@@ -979,6 +979,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(media): implement file upload to AWS S3"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(media): add image resizing and optimization with Sharp"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"
