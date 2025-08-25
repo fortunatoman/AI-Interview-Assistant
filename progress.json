@@ -1059,6 +1059,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "feat(admin): implement analytics overview with KPI cards"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "feat(admin): add revenue chart with date range selector"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
