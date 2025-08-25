@@ -1103,6 +1103,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "docs(api): add OpenAPI spec for authentication endpoints"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "docs(api): document user management endpoints"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
