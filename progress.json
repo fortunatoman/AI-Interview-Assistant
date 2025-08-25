@@ -1067,6 +1067,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "feat(admin): implement top-selling products report"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "feat(admin): add new users registration trend chart"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
