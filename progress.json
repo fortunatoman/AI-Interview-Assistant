@@ -1123,6 +1123,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "docs(api): document error codes and error response schema"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "docs(api): add authentication guide to API documentation"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
