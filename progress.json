@@ -1055,7 +1055,11 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(admin): build admin dashboard layout with sidebar navigation"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "feat(admin): implement analytics overview with KPI cards"
     }
   ],
-  "last_commit_date": "2025-08-22T14:28:00"
+  "last_commit_date": "2025-08-25T15:17:00"
 }
