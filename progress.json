@@ -1119,6 +1119,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "docs(api): add request/response examples to all endpoints"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "docs(api): document error codes and error response schema"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
