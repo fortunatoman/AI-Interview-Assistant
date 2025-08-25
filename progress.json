@@ -1111,6 +1111,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "docs(api): add product endpoints to Swagger UI"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "docs(api): document order and payment endpoints"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
