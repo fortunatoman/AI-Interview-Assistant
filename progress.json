@@ -1107,6 +1107,10 @@
     {
       "date": "2025-08-25T15:17:00",
       "message": "docs(api): document user management endpoints"
+    },
+    {
+      "date": "2025-08-25T15:17:00",
+      "message": "docs(api): add product endpoints to Swagger UI"
     }
   ],
   "last_commit_date": "2025-08-25T15:17:00"
