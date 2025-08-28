@@ -1183,6 +1183,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): create Card component with header, body, footer slots"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): add Tabs component with keyboard navigation"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
