@@ -1263,6 +1263,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(layout): implement page transition animations"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(layout): add 404 Not Found page"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
