@@ -1219,6 +1219,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): create error boundary component"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): add ConfirmDialog component"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
