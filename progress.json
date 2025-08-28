@@ -1159,6 +1159,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): create Table component with sorting and pagination"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): add Badge component for status indicators"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
