@@ -1207,6 +1207,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): create Slider/Range input component"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): add Tag/Chip component"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
