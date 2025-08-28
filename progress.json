@@ -1255,6 +1255,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(layout): implement footer with links and newsletter signup"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(layout): add back-to-top button component"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
