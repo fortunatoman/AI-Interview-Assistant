@@ -1235,6 +1235,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): add ProgressBar component"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): implement Spinner/Loader component"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
