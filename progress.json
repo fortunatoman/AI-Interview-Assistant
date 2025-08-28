@@ -1179,6 +1179,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): implement Avatar component with fallback initials"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): create Card component with header, body, footer slots"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
