@@ -1247,6 +1247,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(layout): implement responsive header with mobile hamburger menu"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(layout): add sticky navigation bar"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
