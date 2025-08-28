@@ -1199,6 +1199,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): add Checkbox and Radio group components"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(ui): implement Switch/Toggle component"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
