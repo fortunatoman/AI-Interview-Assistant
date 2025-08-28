@@ -1239,6 +1239,10 @@
     {
       "date": "2025-08-28T09:23:00",
       "message": "feat(ui): implement Spinner/Loader component"
+    },
+    {
+      "date": "2025-08-28T09:23:00",
+      "message": "feat(layout): build main application layout with header and footer"
     }
   ],
   "last_commit_date": "2025-08-28T09:23:00"
