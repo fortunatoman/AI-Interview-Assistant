@@ -1291,6 +1291,10 @@
     {
       "date": "2025-09-03T13:36:00",
       "message": "feat(home): implement featured products carousel"
+    },
+    {
+      "date": "2025-09-03T13:36:00",
+      "message": "feat(home): add testimonials section"
     }
   ],
   "last_commit_date": "2025-09-03T13:36:00"
