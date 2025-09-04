@@ -1323,6 +1323,10 @@
     {
       "date": "2025-09-04T12:02:00",
       "message": "feat(theme): implement color palette customization"
+    },
+    {
+      "date": "2025-09-04T12:02:00",
+      "message": "feat(theme): add RTL (right-to-left) layout support"
     }
   ],
   "last_commit_date": "2025-09-04T12:02:00"
