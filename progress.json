@@ -1375,6 +1375,10 @@
     {
       "date": "2025-09-05T11:15:00",
       "message": "perf: add CDN cache headers for static assets"
+    },
+    {
+      "date": "2025-09-05T11:15:00",
+      "message": "perf: optimize slow queries identified by pg_stat_statements"
     }
   ],
   "last_commit_date": "2025-09-05T11:15:00"
