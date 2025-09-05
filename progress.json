@@ -1391,6 +1391,10 @@
     {
       "date": "2025-09-05T11:15:00",
       "message": "security: implement SQL injection prevention with parameterized queries"
+    },
+    {
+      "date": "2025-09-05T11:15:00",
+      "message": "security: add Content Security Policy headers"
     }
   ],
   "last_commit_date": "2025-09-05T11:15:00"
