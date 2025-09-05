@@ -1387,6 +1387,10 @@
     {
       "date": "2025-09-05T11:15:00",
       "message": "security: add CSRF protection with double-submit cookie pattern"
+    },
+    {
+      "date": "2025-09-05T11:15:00",
+      "message": "security: implement SQL injection prevention with parameterized queries"
     }
   ],
   "last_commit_date": "2025-09-05T11:15:00"
