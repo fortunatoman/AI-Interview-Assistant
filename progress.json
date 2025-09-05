@@ -1399,6 +1399,10 @@
     {
       "date": "2025-09-05T11:15:00",
       "message": "security: implement secure cookie flags (HttpOnly, Secure, SameSite)"
+    },
+    {
+      "date": "2025-09-05T11:15:00",
+      "message": "security: add brute force protection on login endpoint"
     }
   ],
   "last_commit_date": "2025-09-05T11:15:00"
