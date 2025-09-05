@@ -1367,6 +1367,10 @@
     {
       "date": "2025-09-05T11:15:00",
       "message": "perf: add response compression with gzip/brotli"
+    },
+    {
+      "date": "2025-09-05T11:15:00",
+      "message": "perf: implement HTTP/2 support"
     }
   ],
   "last_commit_date": "2025-09-05T11:15:00"
