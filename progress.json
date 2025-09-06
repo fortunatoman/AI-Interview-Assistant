@@ -1487,6 +1487,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "ci: implement automated test pipeline on push"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "ci: add linting and type checking in CI"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"
