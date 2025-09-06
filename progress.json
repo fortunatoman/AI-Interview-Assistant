@@ -1415,6 +1415,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "security: implement secrets management with AWS Secrets Manager"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "security: run OWASP dependency check and fix vulnerabilities"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"
