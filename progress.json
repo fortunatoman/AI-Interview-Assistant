@@ -1455,6 +1455,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "test: add accessibility tests with axe-core"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "test: implement visual regression tests with Percy"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"
