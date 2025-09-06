@@ -1503,6 +1503,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "ci: implement production deployment with manual approval"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "ci: add automated database migration in deployment pipeline"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"
