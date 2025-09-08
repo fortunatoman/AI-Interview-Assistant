@@ -1563,6 +1563,10 @@
     {
       "date": "2025-09-08T12:14:00",
       "message": "infra: set up S3 bucket with lifecycle policies"
+    },
+    {
+      "date": "2025-09-08T12:14:00",
+      "message": "infra: configure CloudFront distribution for CDN"
     }
   ],
   "last_commit_date": "2025-09-08T12:14:00"
