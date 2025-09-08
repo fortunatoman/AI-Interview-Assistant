@@ -1519,6 +1519,10 @@
     {
       "date": "2025-09-08T12:14:00",
       "message": "ci: implement semantic versioning and release automation"
+    },
+    {
+      "date": "2025-09-08T12:14:00",
+      "message": "ci: add code coverage reporting to PR comments"
     }
   ],
   "last_commit_date": "2025-09-08T12:14:00"
