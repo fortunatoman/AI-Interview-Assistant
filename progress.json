@@ -1567,6 +1567,10 @@
     {
       "date": "2025-09-08T12:14:00",
       "message": "infra: configure CloudFront distribution for CDN"
+    },
+    {
+      "date": "2025-09-08T12:14:00",
+      "message": "infra: add Application Load Balancer with health checks"
     }
   ],
   "last_commit_date": "2025-09-08T12:14:00"
