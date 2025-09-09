@@ -1603,6 +1603,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "feat(monitoring): set up Prometheus metrics collection"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "feat(monitoring): add Grafana dashboards for API performance"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"
