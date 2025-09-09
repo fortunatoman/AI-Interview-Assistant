@@ -1575,7 +1575,11 @@
     {
       "date": "2025-09-08T12:14:00",
       "message": "infra: set up auto-scaling policies for ECS services"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "infra: configure Route 53 DNS with health check failover"
     }
   ],
-  "last_commit_date": "2025-09-08T12:14:00"
+  "last_commit_date": "2025-09-09T09:43:00"
 }
