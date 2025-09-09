@@ -1591,6 +1591,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "infra: configure centralized logging with CloudWatch Logs"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "infra: add IAM roles and policies with least privilege"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"
