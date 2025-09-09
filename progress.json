@@ -1639,6 +1639,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "feat(monitoring): add real user monitoring (RUM) for frontend"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "feat(email): create welcome email template"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"
