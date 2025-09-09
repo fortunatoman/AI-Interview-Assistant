@@ -1667,6 +1667,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "feat(email): create order cancellation email template"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "feat(email): add promotional email campaign template"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"
