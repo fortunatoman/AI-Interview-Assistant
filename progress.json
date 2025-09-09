@@ -1615,6 +1615,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "feat(monitoring): configure Datadog APM integration"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "feat(monitoring): add uptime monitoring with PagerDuty alerts"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"
