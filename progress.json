@@ -1687,6 +1687,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(email): add email bounce and complaint handling via webhooks"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "feat(realtime): set up Socket.IO server"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"
