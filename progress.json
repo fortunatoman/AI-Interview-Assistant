@@ -1691,6 +1691,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(realtime): set up Socket.IO server"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "feat(realtime): implement real-time order status updates"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"
