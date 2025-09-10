@@ -1731,6 +1731,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(i18n): add English locale strings"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "feat(i18n): add Spanish (es) translation"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"
