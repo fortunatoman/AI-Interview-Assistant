@@ -1759,6 +1759,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(i18n): implement automatic language detection from browser"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "a11y: add ARIA labels to all interactive elements"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"
