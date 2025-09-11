@@ -1787,6 +1787,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "a11y: implement reduced-motion media query support"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "a11y: add alt text enforcement for all images"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"
