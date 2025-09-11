@@ -1795,6 +1795,10 @@
     {
       "date": "2025-09-11T13:17:00",
       "message": "feat(seo): implement React Helmet for dynamic meta tags"
+    },
+    {
+      "date": "2025-09-11T13:17:00",
+      "message": "feat(seo): add Open Graph and Twitter Card meta tags"
     }
   ],
   "last_commit_date": "2025-09-11T13:17:00"
