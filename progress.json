@@ -1851,6 +1851,10 @@
     {
       "date": "2025-09-11T13:17:00",
       "message": "feat(flags): implement useFeatureFlag hook"
+    },
+    {
+      "date": "2025-09-11T13:17:00",
+      "message": "feat(flags): add feature flag evaluation in backend middleware"
     }
   ],
   "last_commit_date": "2025-09-11T13:17:00"
