@@ -1875,6 +1875,10 @@
     {
       "date": "2025-09-12T12:40:00",
       "message": "feat(responsive): implement mobile navigation bottom bar"
+    },
+    {
+      "date": "2025-09-12T12:40:00",
+      "message": "feat(responsive): optimize tables for small screens"
     }
   ],
   "last_commit_date": "2025-09-12T12:40:00"
