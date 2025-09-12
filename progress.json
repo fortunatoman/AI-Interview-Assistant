@@ -1883,6 +1883,10 @@
     {
       "date": "2025-09-12T12:40:00",
       "message": "feat(pwa): configure app manifest for installable PWA"
+    },
+    {
+      "date": "2025-09-12T12:40:00",
+      "message": "feat(pwa): add offline support with service worker caching"
     }
   ],
   "last_commit_date": "2025-09-12T12:40:00"
