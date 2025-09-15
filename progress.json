@@ -1911,6 +1911,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(search): handle empty search query gracefully"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(media): prevent duplicate file uploads"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
