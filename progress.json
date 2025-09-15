@@ -1919,6 +1919,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(notifications): resolve WebSocket reconnection loop"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(ui): correct z-index stacking for modal on mobile"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
