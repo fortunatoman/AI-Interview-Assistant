@@ -1951,6 +1951,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(security): patch prototype pollution vulnerability in config parser"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix: resolve infinite re-render in useEffect hook"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
