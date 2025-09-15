@@ -1907,6 +1907,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix: resolve hydration mismatch in SSR mode"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(search): handle empty search query gracefully"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
