@@ -1943,6 +1943,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(i18n): fix missing translation keys causing blank UI"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(api): return 404 instead of 500 for missing resources"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
