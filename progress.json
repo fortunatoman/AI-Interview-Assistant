@@ -1903,6 +1903,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(orders): handle edge case when order is placed with out-of-stock item"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix: resolve hydration mismatch in SSR mode"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"
