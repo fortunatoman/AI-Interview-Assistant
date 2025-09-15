@@ -1967,6 +1967,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix(categories): fix circular reference in nested category tree"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(cache): resolve stale cache after product update"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"

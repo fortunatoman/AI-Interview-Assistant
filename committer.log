@@ -1973,3 +1973,7 @@
 2026-02-24 09:43:01,918 - INFO - [OK] Commit created: fix(reviews): prevent duplicate review submission on double-click
 2026-02-24 09:43:04,417 - INFO - Pushed to GitHub: master
 2026-02-24 09:43:05,420 - INFO - Modified 3 files
+2026-02-24 09:43:06,022 - INFO - Created commit: fix(categories): fix circular reference in nested ...
+2026-02-24 09:43:06,025 - INFO - [OK] Commit created: fix(categories): fix circular reference in nested category tree
+2026-02-24 09:43:08,227 - INFO - Pushed to GitHub: master
+2026-02-24 09:43:09,229 - INFO - Modified 3 files
