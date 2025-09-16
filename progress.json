@@ -2015,6 +2015,10 @@
     {
       "date": "2025-09-16T09:33:00",
       "message": "refactor: consolidate duplicate query patterns into repository layer"
+    },
+    {
+      "date": "2025-09-16T09:33:00",
+      "message": "refactor(api): standardize error response structure across all endpoints"
     }
   ],
   "last_commit_date": "2025-09-16T09:33:00"
