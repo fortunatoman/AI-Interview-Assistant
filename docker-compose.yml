@@ -4,10 +4,10 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "${BACKEND_PORT:-3330}:3330"
     environment:
       - NODE_ENV=production
-      - PORT=3000
+      - PORT=3330
       - ALLOWED_ORIGINS=*
     # Optional: create .env in project root for OPENAI_API_KEY, DEEPGRAM_API_KEY, etc.
     # env_file: .env
@@ -19,9 +19,9 @@ services:
       dockerfile: Dockerfile
       args:
         # URL the browser uses to reach the API (host machine)
-        VITE_API_BASE_URL: http://localhost:3000
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:3330}
     ports:
-      - "5173:80"
+      - "${FRONTEND_PORT:-5555}:80"
     depends_on:
       - backend
     restart: unless-stopped
