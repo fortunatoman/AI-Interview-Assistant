@@ -86,25 +86,28 @@ export default function LiveTranscript({ segments }: LiveTranscriptProps) {
     })()
 
     return (
-        <div className="bg-[#2c2c2c] rounded-md shadow-lg border border-gray-500 p-4 h-64 overflow-y-auto" ref={scrollRef}>
+        <div className="card h-64 overflow-y-auto scrollbar-thin" ref={scrollRef}>
             <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold text-gray-200 flex items-center gap-2">
+                <h3 className="text-lg font-semibold text-secondary-900 dark:text-secondary-100 flex items-center gap-2">
                     <MessageCircle className="h-5 w-5 text-green-600" />
                     Live Transcript
                 </h3>
             </div>
             {displayRows.length === 0 ? (
-                <p className="text-sm text-gray-500">Live transcript will appear here.</p>
+                <p className="text-sm text-secondary-500 dark:text-secondary-400">Live transcript will appear here.</p>
             ) : (
                 <div className="space-y-2">
                     {displayRows.map((r) => (
                         <div key={r.key} className="flex gap-2 items-start">
-                            <span className={`text-xs px-2 py-0.5 rounded-full ${r.speaker === 'me' ? 'bg-blue-600 text-white' : 'bg-green-600 text-white'}`}>
+                            <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${r.speaker === 'me'
+                                ? 'bg-primary-100 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300'
+                                : 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300'
+                                }`}>
                                 {r.speaker === 'me' ? 'You' : 'Other'}
                             </span>
-                            <span className="text-sm text-gray-200">
+                            <span className="text-sm text-secondary-800 dark:text-secondary-200">
                                 {r.text}
-                                {r.interim ? <span className="italic text-gray-400"> {r.interim}</span> : null}
+                                {r.interim ? <span className="italic text-secondary-400 dark:text-secondary-500"> {r.interim}</span> : null}
                             </span>
                         </div>
                     ))}

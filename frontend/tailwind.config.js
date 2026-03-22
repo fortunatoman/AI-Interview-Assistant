@@ -1,18 +1,40 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+    darkMode: 'class',
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx}",
-        "./src/**/*.{vue,js,ts,jsx,tsx}",
     ],
     theme: {
         extend: {
             colors: {
                 primary: {
                     50: '#eff6ff',
+                    100: '#dbeafe',
+                    200: '#bfdbfe',
+                    300: '#93c5fd',
+                    400: '#60a5fa',
                     500: '#3b82f6',
                     600: '#2563eb',
+                    700: '#1d4ed8',
+                    800: '#1e40af',
+                    900: '#1e3a8a',
                 },
+                secondary: {
+                    50: '#f8fafc',
+                    100: '#f1f5f9',
+                    200: '#e2e8f0',
+                    300: '#cbd5e1',
+                    400: '#94a3b8',
+                    500: '#64748b',
+                    600: '#475569',
+                    700: '#334155',
+                    800: '#1e293b',
+                    900: '#0f172a',
+                },
+            },
+            fontFamily: {
+                sans: ['Inter', 'system-ui', 'sans-serif'],
             },
             animation: {
                 'bounce-slow': 'bounce 2s infinite',
@@ -20,30 +42,4 @@ export default {
         },
     },
     plugins: [],
-    safelist: [
-        'bg-blue-500',
-        'bg-green-500',
-        'bg-purple-500',
-        'bg-red-500',
-        'bg-orange-500',
-        'bg-yellow-500',
-        'text-white',
-        'rounded-lg',
-        'rounded-xl',
-        'shadow-lg',
-        'p-4',
-        'p-6',
-        'mb-4',
-        'mb-6',
-        'flex',
-        'items-center',
-        'justify-center',
-        'gap-2',
-        'gap-3',
-        'gap-4',
-        'transition-all',
-        'hover:scale-105',
-        'animate-pulse',
-        'animate-bounce',
-    ]
 }

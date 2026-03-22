@@ -91,19 +91,19 @@ export default function DocumentManager({
     }, [onJobDescriptionUpdate]);
 
     return (
-        <div className="bg-[#2c2c2c] rounded-md shadow-lg border border-gray-500 p-6">
+        <div className="card">
             <div className="flex items-center gap-2 mb-6">
                 <FolderCheck className="h-5 w-5 text-indigo-600" />
-                <h3 className="text-lg font-semibold text-gray-200">Interview Context</h3>
+                <h3 className="text-lg font-semibold text-secondary-900 dark:text-secondary-100">Interview Context</h3>
                 <div className="ml-auto flex items-center gap-2 text-xs">
                     {resumeText && (
-                        <div className="flex items-center gap-1 bg-green-100 text-green-700 px-2 py-1 rounded-full">
+                        <div className="flex items-center gap-1 bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300 px-2 py-1 rounded-full">
                             <CheckCircle className="h-3 w-3" />
                             Resume loaded
                         </div>
                     )}
                     {jobDescription && (
-                        <div className="flex items-center gap-1 bg-blue-100 text-blue-700 px-2 py-1 rounded-full">
+                        <div className="flex items-center gap-1 bg-primary-100 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 px-2 py-1 rounded-full">
                             <CheckCircle className="h-3 w-3" />
                             Job description set
                         </div>
@@ -116,7 +116,7 @@ export default function DocumentManager({
                 {/* Additional Context Section */}
                 <div>
                     <div className="flex items-center justify-between mb-3">
-                        <h4 className="text-sm font-medium text-gray-200 flex items-center gap-2">
+                        <h4 className="text-sm font-medium text-secondary-800 dark:text-secondary-200 flex items-center gap-2">
                             <NotebookPen className="h-4 w-4 text-orange-600" />
                             Additional Context
                         </h4>
@@ -124,14 +124,14 @@ export default function DocumentManager({
                             {additionalContext && (
                                 <button
                                     onClick={clearAdditionalContext}
-                                    className="text-red-600 hover:text-red-700 text-xs flex items-center gap-1"
+                                    className="text-red-600 dark:text-red-400 hover:text-red-700 text-xs flex items-center gap-1"
                                 >
                                     Clear
                                 </button>
                             )}
                             <button
                                 onClick={() => setShowAdditionalContextPaste(!showAdditionalContextPaste)}
-                                className="text-orange-600 hover:text-orange-700 text-xs flex items-center gap-1"
+                                className="text-orange-600 dark:text-orange-400 hover:text-orange-700 text-xs flex items-center gap-1"
                             >
                                 {showAdditionalContextPaste ? 'Hide' : 'Add'}
                             </button>
@@ -152,11 +152,12 @@ export default function DocumentManager({
                         rows={4}
                     />
                 </div>
+
                 {/* Resume Upload Section */}
                 <div>
                     <div className="flex items-center justify-between mb-3">
-                        <h4 className="text-sm font-medium text-gray-200 flex items-center gap-2">
-                            <FileText className="h-4 w-4 text-blue-600" />
+                        <h4 className="text-sm font-medium text-secondary-800 dark:text-secondary-200 flex items-center gap-2">
+                            <FileText className="h-4 w-4 text-primary-600" />
                             Resume
                         </h4>
                     </div>
@@ -176,7 +177,7 @@ export default function DocumentManager({
                 {/* Job Description Section */}
                 <div>
                     <div className="flex items-center justify-between mb-3">
-                        <h4 className="text-sm font-medium text-gray-200 flex items-center gap-2">
+                        <h4 className="text-sm font-medium text-secondary-800 dark:text-secondary-200 flex items-center gap-2">
                             <Briefcase className="h-4 w-4 text-purple-600" />
                             Job Description
                         </h4>
@@ -184,14 +185,14 @@ export default function DocumentManager({
                             {jobDescription && (
                                 <button
                                     onClick={clearJobDescription}
-                                    className="text-red-600 hover:text-red-700 text-xs flex items-center gap-1"
+                                    className="text-red-600 dark:text-red-400 hover:text-red-700 text-xs flex items-center gap-1"
                                 >
                                     Clear
                                 </button>
                             )}
                             <button
                                 onClick={() => setShowJobDescriptionGenerator(true)}
-                                className="text-purple-600 hover:text-purple-700 text-xs flex items-center gap-1"
+                                className="text-purple-600 dark:text-purple-400 hover:text-purple-700 text-xs flex items-center gap-1"
                                 title="Generate with AI"
                             >
                                 <Sparkles className="h-4 w-4" />
@@ -199,7 +200,7 @@ export default function DocumentManager({
                             </button>
                             <button
                                 onClick={() => setShowJobDescriptionPaste(!showJobDescriptionPaste)}
-                                className="text-purple-600 hover:text-purple-700 text-xs flex items-center gap-1"
+                                className="text-purple-600 dark:text-purple-400 hover:text-purple-700 text-xs flex items-center gap-1"
                             >
                                 {showJobDescriptionPaste ? 'Hide' : 'Type'}
                                 <Pencil className="h-4 w-4" />
@@ -235,16 +236,15 @@ export default function DocumentManager({
                     )}
                 </div>
 
-
                 {/* Context Summary */}
                 {(resumeText || jobDescription || additionalContext) && (
-                    <div className="bg-[#2c2c2c] border border-blue-200 rounded-lg p-4">
-                        <h5 className="text-sm font-medium text-gray-200 mb-2">🎯 Interview Context Active</h5>
-                        <div className="text-xs text-gray-400 space-y-1">
+                    <div className="bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 rounded-lg p-4">
+                        <h5 className="text-sm font-medium text-secondary-800 dark:text-secondary-200 mb-2">Interview Context Active</h5>
+                        <div className="text-xs text-secondary-600 dark:text-secondary-400 space-y-1">
                             {resumeText && <p>✓ Resume loaded - responses will reference your background</p>}
                             {jobDescription && <p>✓ Job description set - responses will be tailored to the role</p>}
                             {additionalContext && <p>✓ Additional context provided - responses will be more personalized</p>}
-                            <p className="text-blue-600 font-medium">
+                            <p className="text-primary-600 dark:text-primary-400 font-medium">
                                 OpenAI will now generate personalized interview responses!
                             </p>
                         </div>

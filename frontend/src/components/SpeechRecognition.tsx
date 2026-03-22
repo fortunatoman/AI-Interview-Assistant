@@ -37,22 +37,21 @@ export default function SpeechRecognition({
 
     if (!isSupported) {
         return (
-            <div className="bg-[#2c2c2c] border border-red-200 rounded-xl p-6 text-center">
+            <div className="card border-red-200 dark:border-red-800 text-center">
                 <Mic className="h-12 w-12 text-red-400 mx-auto mb-3" />
-                <p className="text-red-700 font-medium">Speech Recognition Not Supported</p>
-                <p className="text-red-600 text-sm mt-1">
+                <p className="text-red-700 dark:text-red-400 font-medium">Speech Recognition Not Supported</p>
+                <p className="text-red-600 dark:text-red-500 text-sm mt-1">
                     Please use a modern browser like Chrome or Edge
                 </p>
             </div>
         );
     }
 
-
     return (
-        <div className="bg-[#2c2c2c] rounded-md shadow-lg border border-gray-500 p-6">
+        <div className="card">
             <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold text-gray-200 flex items-center gap-2">
-                    <Mic className="h-5 w-5 text-blue-600" />
+                <h3 className="text-lg font-semibold text-secondary-900 dark:text-secondary-100 flex items-center gap-2">
+                    <Mic className="h-5 w-5 text-primary-600" />
                     Voice Input
                 </h3>
                 <div className="flex items-center gap-2">
@@ -60,7 +59,10 @@ export default function SpeechRecognition({
                     {onToggleShare && (
                         <button
                             onClick={onToggleShare}
-                            className={`p-2 rounded-lg ${isSharing ? 'bg-indigo-500 text-white' : 'bg-gray-700 text-gray-200'} hover:opacity-90 transition`}
+                            className={`p-2 rounded-lg transition-colors ${isSharing
+                                ? 'bg-primary-600 text-white'
+                                : 'bg-secondary-100 dark:bg-secondary-700 text-secondary-600 dark:text-secondary-300'
+                                } hover:opacity-90`}
                             title={isSharing ? 'Stop Sharing System Audio' : 'Share System/Tab Audio'}
                         >
                             <ScreenShare className="h-4 w-4" />
@@ -81,7 +83,7 @@ export default function SpeechRecognition({
                     <button
                         onClick={onToggleListening}
                         className={`p-3 rounded-full transition-all duration-200 transform hover:scale-105 ${isListening
-                            ? 'bg-blue-500 hover:bg-blue-600 text-white shadow-lg shadow-blue-500/25'
+                            ? 'bg-primary-600 hover:bg-primary-700 text-white shadow-lg shadow-primary-500/25'
                             : 'bg-red-500 hover:bg-red-600 text-white shadow-lg shadow-red-500/25'
                             }`}
                         title={isListening ? 'Stop Listening' : 'Start Listening'}
@@ -97,7 +99,7 @@ export default function SpeechRecognition({
 
             <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                    <div className={`flex items-center gap-2 text-sm ${isListening ? 'text-green-600' : 'text-gray-400'}`}>
+                    <div className={`flex items-center gap-2 text-sm ${isListening ? 'text-green-600 dark:text-green-400' : 'text-secondary-500 dark:text-secondary-400'}`}>
                         <div className={`w-2 h-2 rounded-full ${isMicActive ? 'bg-green-500' : 'bg-red-500'} ${isListening ? 'animate-pulse' : ''}`} />
                         {isMicActive
                             ? (isListening ? 'Listening for questions...' : 'Microphone ready - click to listen')
@@ -107,17 +109,17 @@ export default function SpeechRecognition({
 
                     {/* Response Status */}
                     {isResponsePlaying && (
-                        <div className="flex items-center gap-2 text-xs text-green-600">
+                        <div className="flex items-center gap-2 text-xs text-green-600 dark:text-green-400">
                             <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-                            🔊 Speaking answer...
+                            Speaking answer...
                         </div>
                     )}
                 </div>
 
                 {displayTranscript && (
-                    <div className="bg-[#2c2c2c] rounded-lg p-3 border-l-4 border-red-500">
-                        <p className="text-sm text-gray-400 mb-1">Last heard:</p>
-                        <p className="text-gray-200">{displayTranscript}</p>
+                    <div className="bg-secondary-50 dark:bg-secondary-700/50 rounded-lg p-3 border-l-4 border-primary-500">
+                        <p className="text-sm text-secondary-500 dark:text-secondary-400 mb-1">Last heard:</p>
+                        <p className="text-secondary-800 dark:text-secondary-200">{displayTranscript}</p>
                     </div>
                 )}
             </div>

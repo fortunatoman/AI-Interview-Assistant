@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
-import { Zap } from 'lucide-react';
+import { Zap, Sun, Moon } from 'lucide-react';
 import SpeechRecognition from './SpeechRecognition';
 import ResponseGenerator from './ResponseGenerator';
 import TextToSpeech from './TextToSpeech';
@@ -15,6 +15,7 @@ import useTranscriptBuffer from '../hooks/useTranscriptBuffer';
 import { getSocket } from '../services/backend';
 import createAudioAttribution from '../utils/audioAttribution';
 import ConversationHistory from './ConversationHistory';
+import { useThemeStore } from '../store/themeStore';
 
 export default function InterviewDashboard() {
     const [currentQuestion, setCurrentQuestion] = useState('');
@@ -25,6 +26,8 @@ export default function InterviewDashboard() {
     const [resumeText, setResumeText] = useState('');
     const [jobDescription, setJobDescription] = useState('');
     const [additionalContext, setAdditionalContext] = useState('');
+
+    const { theme, toggleTheme } = useThemeStore();
 
     const textToSpeechRef = useRef<TextToSpeechRef>(null);
     const shareVideoRef = useRef<HTMLVideoElement>(null);
@@ -47,8 +50,6 @@ export default function InterviewDashboard() {
             setCurrentQuestion(question);
         }
     });
-
-    // Decouple system-audio transcription from mic listening: system stays active while sharing
 
     // If system audio sharing is active, mute TTS to avoid capturing our own AI response
     useEffect(() => {
@@ -212,15 +213,15 @@ export default function InterviewDashboard() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-[#1a1a1a] from-blue-50 via-white to-purple-50">
+        <div className="min-h-screen bg-secondary-50 dark:bg-secondary-900">
             {/* Header */}
-            <div className="bg-[#1a1a1a] shadow-sm border-b border-gray-600">
+            <div className="bg-white dark:bg-secondary-800 shadow-sm border-b border-secondary-200 dark:border-secondary-700">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
                             <div>
-                                <h1 className="text-2xl font-bold text-white">AI Interview Assistant</h1>
-                                <p className="text-sm text-gray-300">Real-time interview question analysis & response generation</p>
+                                <h1 className="text-2xl font-bold text-secondary-900 dark:text-secondary-50">AI Interview Assistant</h1>
+                                <p className="text-sm text-secondary-500 dark:text-secondary-400">Real-time interview question analysis & response generation</p>
                             </div>
                         </div>
 
@@ -229,14 +230,25 @@ export default function InterviewDashboard() {
                             <div className="hidden md:flex items-center gap-6 text-sm">
                                 <div className="flex items-center gap-2">
                                     <Zap className="h-4 w-4 text-green-600" />
-                                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${!isMicActive ? 'bg-red-100 text-red-700' :
-                                        isListening ? 'bg-green-100 text-green-700' :
-                                            'bg-blue-100 text-blue-700'
+                                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${!isMicActive
+                                        ? 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400'
+                                        : isListening
+                                            ? 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400'
+                                            : 'bg-primary-100 dark:bg-primary-900/40 text-primary-700 dark:text-primary-400'
                                         }`}>
                                         {!isMicActive ? 'No Mic' : isListening ? 'Live' : 'Ready'}
                                     </span>
                                 </div>
                             </div>
+
+                            {/* Theme Toggle */}
+                            <button
+                                onClick={toggleTheme}
+                                className="p-2 rounded-lg text-secondary-500 dark:text-secondary-400 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors"
+                                title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+                            >
+                                {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -249,8 +261,8 @@ export default function InterviewDashboard() {
                     <div className="space-y-6">
                         {/* Screen Share Preview (shown on top of voice input box while sharing) */}
                         {isSharing && (
-                            <div className="bg-[#0f0f0f] border border-gray-700 rounded-md overflow-hidden">
-                                <div className="px-3 py-2 text-xs text-gray-300 bg-[#0a0a0a] border-b border-gray-700">
+                            <div className="bg-secondary-900 dark:bg-secondary-950 border border-secondary-700 rounded-xl overflow-hidden">
+                                <div className="px-3 py-2 text-xs text-secondary-300 bg-secondary-800 border-b border-secondary-700">
                                     Screen Share Preview
                                 </div>
                                 <div className="relative">
@@ -262,7 +274,7 @@ export default function InterviewDashboard() {
                                         playsInline
                                     />
                                     {(!systemStream || systemStream.getVideoTracks().length === 0) && (
-                                        <div className="absolute inset-0 flex items-center justify-center text-xs text-gray-300 bg-black/60">
+                                        <div className="absolute inset-0 flex items-center justify-center text-xs text-secondary-300 bg-black/60">
                                             No video in shared stream. Select a Tab or Window (and enable "Share audio") in the picker.
                                         </div>
                                     )}
@@ -347,9 +359,9 @@ export default function InterviewDashboard() {
             </div>
 
             {/* Footer */}
-            <div className="bg-[#1a1a1a] border-t border-gray-600 mt-12">
+            <div className="bg-white dark:bg-secondary-800 border-t border-secondary-200 dark:border-secondary-700 mt-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-                    <div className="flex items-center justify-between text-sm text-gray-400">
+                    <div className="flex items-center justify-between text-sm text-secondary-500 dark:text-secondary-400">
                         <p>AI Interview Assistant</p>
                         <p>Built with React + TypeScript + Tailwind CSS</p>
                     </div>

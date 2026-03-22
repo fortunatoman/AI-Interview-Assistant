@@ -18,20 +18,14 @@ interface TextAreaProps {
 
 const colorSchemes = {
     purple: {
-        bg: 'bg-gray-800',
-        border: 'border-purple-200',
-        text: 'text-gray-200',
-        focus: 'focus:ring-purple-500 focus:border-purple-500',
-        button: 'bg-purple-500 hover:bg-purple-600',
-        icon: 'text-purple-600'
+        badge: 'bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-800',
+        button: 'bg-purple-600 hover:bg-purple-700',
+        icon: 'text-purple-600 dark:text-purple-400',
     },
     orange: {
-        bg: 'bg-gray-800',
-        border: 'border-orange-200',
-        text: 'text-gray-200',
-        focus: 'focus:ring-orange-500 focus:border-orange-500',
+        badge: 'bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300 border-orange-200 dark:border-orange-800',
         button: 'bg-orange-500 hover:bg-orange-600',
-        icon: 'text-orange-600'
+        icon: 'text-orange-600 dark:text-orange-400',
     }
 };
 
@@ -59,7 +53,7 @@ export const TextArea: React.FC<TextAreaProps> = ({
     if (!value && !showEdit) {
         return (
             <div className="text-center">
-                <p className="text-sm text-gray-600 mb-3">Add any additional context for better responses</p>
+                <p className="text-sm text-secondary-500 dark:text-secondary-400 mb-3">Add any additional context for better responses</p>
                 <button
                     onClick={onToggleEdit}
                     className={`${colors.button} text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 mx-auto`}
@@ -79,11 +73,11 @@ export const TextArea: React.FC<TextAreaProps> = ({
                         value={value}
                         onChange={(e) => onChange(e.target.value)}
                         placeholder={placeholder}
-                        className={`w-full p-3 border text-gray-300 bg-[#202020] border-gray-300 rounded-lg ${colors.focus} text-sm`}
+                        className="textarea-field text-sm"
                         rows={rows}
                     />
                     <div className="flex items-center justify-between mt-2">
-                        <span className="text-xs text-gray-500">
+                        <span className="text-xs text-secondary-500 dark:text-secondary-400">
                             {value.length} characters
                         </span>
                         <div className="flex gap-2">
@@ -92,7 +86,7 @@ export const TextArea: React.FC<TextAreaProps> = ({
                                     if (onCancel) onCancel();
                                     else onToggleEdit();
                                 }}
-                                className="text-gray-600 hover:text-gray-700 px-3 py-1 text-xs"
+                                className="text-secondary-600 dark:text-secondary-400 hover:text-secondary-700 px-3 py-1 text-xs"
                             >
                                 Cancel
                             </button>
@@ -112,35 +106,35 @@ export const TextArea: React.FC<TextAreaProps> = ({
             )}
 
             {value && !showEdit && (
-                <div className={`${colors.bg} border ${colors.border} rounded-lg p-4`}>
+                <div className={`border rounded-lg p-4 ${colors.badge}`}>
                     <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-2">
                             <Edit3 className={`h-4 w-4 ${colors.icon}`} />
-                            <span className={`text-sm font-medium ${colors.text}`}>
+                            <span className="text-sm font-medium">
                                 {title} Loaded
                             </span>
                         </div>
                         <div className="flex items-center gap-2">
                             <button
                                 onClick={handleCopyText}
-                                className={`${colors.text} hover:${colors.text.replace('text-', 'text-')} p-1`}
+                                className="opacity-75 hover:opacity-100 p-1 transition-opacity"
                                 title={`Copy ${title.toLowerCase()}`}
                             >
-                                <Copy className={`h-3 w-3 ${colors.icon}`} />
+                                <Copy className="h-3 w-3" />
                             </button>
                             <button
                                 onClick={onToggleEdit}
-                                className={`${colors.text} hover:${colors.text.replace('text-', 'text-')} p-1`}
+                                className="opacity-75 hover:opacity-100 p-1 transition-opacity"
                                 title={`Edit ${title.toLowerCase()}`}
                             >
                                 <Edit3 className="h-3 w-3" />
                             </button>
                         </div>
                     </div>
-                    <div className={`text-xs ${colors.text}`}>
+                    <div className="text-xs opacity-75">
                         ✓ {value.length} characters • Entered manually • Click edit to modify
                     </div>
-                    <div className={`mt-2 text-xs ${colors.text} ${colors.bg} rounded p-2 max-h-20 overflow-y-auto`}>
+                    <div className="mt-2 text-xs opacity-75 rounded p-2 max-h-20 overflow-y-auto bg-white/30 dark:bg-black/20">
                         {value.substring(0, 200)}
                         {value.length > 200 && '...'}
                     </div>
