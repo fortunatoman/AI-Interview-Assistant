@@ -5,13 +5,13 @@ services:
       dockerfile: Dockerfile
     ports:
       - "${BACKEND_PORT:-3330}:3330"
+    env_file:
+      - ./backend/.env
     environment:
       - NODE_ENV=production
       - PORT=3330
       - ALLOWED_ORIGINS=*
-    # Optional: create .env in project root for OPENAI_API_KEY, DEEPGRAM_API_KEY, etc.
-    # env_file: .env
-    restart: unless-stopped
+    # OPENAI_API_KEY, DEEPGRAM_API_KEY from backend/.env; override with: OPENAI_API_KEY=sk-xxx docker-compose up
 
   frontend:
     build:
