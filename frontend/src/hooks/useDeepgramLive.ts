@@ -36,6 +36,3 @@ export const useDeepgramLive = ({ stream, enabled, onTranscript }: UseDeepgramLi
 }
 
 export default useDeepgramLive
-
-
-
