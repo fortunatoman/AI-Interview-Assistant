@@ -23,5 +23,3 @@ export function getSocket(): Socket {
 export function getApiBaseUrl(): string {
     return API_BASE_URL
 }
-
-
