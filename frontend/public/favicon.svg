@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="AI Interview Assistant">
+  <defs>
+    <linearGradient id="aia-bg" x1="0" y1="0" x2="32" y2="32">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#aia-bg)"/>
+  <!-- Microphone: capsule + stand (speech / Deepgram listening) -->
+  <rect x="13" y="6" width="6" height="11" rx="3" fill="#f8fafc"/>
+  <path fill="none" stroke="#f8fafc" stroke-width="1.75" stroke-linecap="round" d="M11 14v1a5 5 0 0 0 10 0v-1"/>
+  <path fill="none" stroke="#f8fafc" stroke-width="1.75" stroke-linecap="round" d="M16 22v2M13 26h6"/>
+  <!-- AI sparkle -->
+  <path fill="#bfdbfe" d="M24.5 7.5l.4 1.1 1.1.4-1.1.4-.4 1.1-.4-1.1-1.1-.4 1.1-.4z"/>
+  <circle cx="22" cy="11" r="1" fill="#93c5fd"/>
+</svg>
